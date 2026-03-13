@@ -6,23 +6,30 @@ body {
 
 .container-dblue {
     background-color: #1F2937;
+    height: 40vh;
+    padding: 0px 64px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 24px;
     color: #F9FAF8;
+    margin: 16px 0px;
 }
 
 .main-body {
     display: flex;
+    flex-direction: column;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .header-links {
     display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul {
