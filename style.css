@@ -9,6 +9,7 @@ body {
     background-image: linear-gradient(#403b2f, #a39677);
     backdrop-filter: blur(20);
     padding: 0px 64px;
+    padding-bottom: 16px;
 }
 
 .header {
@@ -58,8 +59,16 @@ body {
 
 .content {
     
-    
-    background-color: #b1c995;
+    border: ridge 8px #1f1e16;
+    background-image: radial-gradient(#b1c995, #597353);
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    color: #1f1e16;
+    font-size: 36px;
+    font-weight: 900px;
 }
 ul {
     display: flex;
