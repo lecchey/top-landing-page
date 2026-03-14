@@ -7,7 +7,6 @@ body {
 .container-beige {
     background-image: linear-gradient(#403b2f, #a39677);
     backdrop-filter: blur(20);
-    height: fit-content;
     padding: 0px 64px;
 }
 
@@ -56,6 +55,10 @@ body {
     flex: 1;
 }
 
+.content {
+    display: flex;
+    background-color: #b1c995;
+}
 ul {
     display: flex;
     gap: 16px;
