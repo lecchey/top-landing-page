@@ -6,7 +6,7 @@ body {
 
 .container-dblue {
     background-color: #1F2937;
-    height: 40vh;
+    height: fit-content;
     padding: 0px 64px;
 }
 
@@ -19,17 +19,34 @@ body {
     margin: 16px 0px;
 }
 
-.main-body {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .header-links {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 24px 0px;
+    
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    flex: 1;
+}
+
+.shire-img {
+    display: flex;
+    height: 250px;
+    width: 200px;
+    flex: 1;
 }
 
 ul {
@@ -44,4 +61,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+button {
+
 }
