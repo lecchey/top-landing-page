@@ -30,18 +30,19 @@ body {
 .main-body {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     font-size: 18px;
     color: #E5E7EB;
     padding: 24px 0px;
-    
 }
 
 .main-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     height: 250px;
-    flex: 1;
+    flex: 2;
 }
 
 .hero-text {
@@ -52,13 +53,17 @@ body {
 
 .shire-img {
     display: flex;
-    height: 250px;
-    width: 200px;
-    flex: 1;
+    flex: 1 1 200px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.shire-img img {
+    width: 100%;
+    height: auto;
 }
 
 .content {
-    
     border: ridge 8px #1f1e16;
     background-image: radial-gradient(#b1c995, #597353);
 }
@@ -70,6 +75,16 @@ body {
     font-size: 36px;
     font-weight: 900px;
 }
+
+.ale-img {
+    width: 150px;
+}
+
+.ale-img img {
+    width: 100%;
+    flex: 1;
+}
+
 ul {
     display: flex;
     gap: 16px;
