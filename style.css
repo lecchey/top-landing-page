@@ -49,9 +49,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 250px;
     flex: 1;
     border: 5px solid black;
+    min-height: 0;
+    min-width: 0;
 }
 
 .hero-text {
@@ -63,6 +64,7 @@ body {
 .shire-img {
     display: flex;
     flex: 1;
+    min-width: 250px;    
     border: 5px solid black;
 }
 
