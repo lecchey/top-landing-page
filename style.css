@@ -36,6 +36,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     margin: 24px 0px;
+    gap: 32px;
 }
 
 .main-text {
@@ -62,6 +63,9 @@ body {
 .shire-img img {
     width: 100%;
     height: auto;
+    border: 5px solid #38663B;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(47 61 44 0.3) ;
 }
 
 .content {
@@ -75,16 +79,31 @@ body {
     color: #1f1e16;
     font-size: 36px;
     font-weight: 900px;
+    margin: 8px;
 }
 
-.ale-img {
+.ale, .book, .food, .leaf{
+    flex: 1;
     width: 150px;
 }
 
-.ale-img img {
+.content img {
     width: 100%;
     flex: 1;
+    border-radius: 10px;
+    border: 2px solid #403b2f;
+    margin: 0 16px;
 }
+
+.text-box {
+    margin: 4px 16px;
+    min-width: min-content;
+    background-color: rgba(63, 82, 59, 0.4);
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 
 ul {
     display: flex;
