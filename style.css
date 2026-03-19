@@ -82,26 +82,31 @@ body {
     margin: 8px;
 }
 
-.ale, .book, .food, .leaf{
-    flex: 1;
-    width: 150px;
+.shire-info {
+    display: flex;
+    justify-content: space-around;
 }
 
-.content img {
-    width: 100%;
-    flex: 1;
+.info-imgs {
+    max-width: 200px;
+    text-align: center;
+}
+
+.info-imgs img {
     border-radius: 10px;
     border: 2px solid #403b2f;
-    margin: 0 16px;
+    width: 200px;
+    height: auto;
 }
 
 .text-box {
-    margin: 4px 16px;
-    min-width: min-content;
     background-color: rgba(63, 82, 59, 0.4);
-    padding: 8px;
-    text-align: center;
     border-radius: 5px;
+}
+
+.imgs-texts {
+    display: flex;
+    justify-content: center;
 }
 
 
