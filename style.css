@@ -84,7 +84,6 @@ body {
 
 .shire-info {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
     margin: 0 24px;
@@ -116,7 +115,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 
 ul {
     display: flex;
