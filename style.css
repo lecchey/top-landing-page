@@ -151,7 +151,7 @@ body {
     padding: 16px;
     margin: 24px 120px;
     border-radius: 5px;
-    max-width: 500px;
+    max-width: 80%;
     font-size: 36px;
     font-weight: 300px;
 }
@@ -170,6 +170,7 @@ body {
     height: auto;
     color: #E5E7EB;
     padding: 16px 48px;
+    border-radius: 5px;
    
 }
 
@@ -192,6 +193,15 @@ body {
     white-space: nowrap;
 
 }
+
+footer {
+    background-color: #595242;
+    color: #E5E7EB;
+    width: 100vw;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 24px;
+}  
 
 
 ul {
